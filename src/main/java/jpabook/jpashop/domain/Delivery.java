@@ -30,5 +30,5 @@ public class Delivery {
     private Address address;
 
     @Enumerated(EnumType.STRING)
-    private DeliveryStatus status; //READY, STOP
+    private DeliveryStatus status; //COMP, READY
 }
